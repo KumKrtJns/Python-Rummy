@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from rummy.player.player import Player
+from player import Player
 
 
 class Human(Player):

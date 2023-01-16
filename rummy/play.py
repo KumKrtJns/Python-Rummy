@@ -6,16 +6,16 @@ from time import sleep
 
 import colorama
 
-from rummy.controller.ai_controller import AiController
-from rummy.controller.human_controller import HumanController
-from rummy.game.players import Players
-from rummy.game.round import Round
-from rummy.game.score import Score
-from rummy.player.human import Human
-from rummy.ui.menu_action_dialog import MenuActionDialog
-from rummy.ui.user_input import UserInput
-from rummy.ui.view import View
-from rummy.view.round_view import RoundView
+from controller import AiController
+from controller import HumanController
+from game import Players
+from game import Round
+from game import Score
+from player import Human
+from ui import MenuActionDialog
+from ui import UserInput
+from ui import View
+from view import RoundView
 
 
 class Play:
