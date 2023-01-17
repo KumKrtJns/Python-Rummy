@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
+from player import AI, Human
+from ui import MenuActionDialog, UserInput
 
-from player import AI
-from player import Human
-from ui import MenuActionDialog
-from ui import UserInput
 
 
 class Players:
