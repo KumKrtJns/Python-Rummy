@@ -1,8 +1,8 @@
 from rummy.controller.player_controller import PlayerController
 from rummy.player.player import Player
-from rummy.ui.player_action_dialog import PlayerActionDialog
-from rummy.ui.user_input import UserInput
-from rummy.ui.view import View
+from rummy.userinput.player_action_dialog import PlayerActionDialog
+from rummy.userinput.user_input import UserInput
+from rummy.userinput.view import View
 from rummy.view.human_view import HumanView
 
 

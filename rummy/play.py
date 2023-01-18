@@ -12,9 +12,9 @@ from game import Players
 from game import Round
 from game import Score
 from player import Human
-from ui import MenuActionDialog
-from ui import UserInput
-from ui import View
+from userinput import MenuActionDialog
+from userinput import UserInput
+from userinput import View
 from view import RoundView
 
 

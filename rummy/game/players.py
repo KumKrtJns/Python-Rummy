@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from player import AI, Human
-from ui import MenuActionDialog, UserInput
+from userinput import MenuActionDialog, UserInput
 
 
 

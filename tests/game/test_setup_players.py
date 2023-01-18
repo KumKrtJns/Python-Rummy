@@ -1,6 +1,6 @@
 # coding=utf-8
 from rummy.game.players import Players
-from rummy.ui.user_input import UserInput
+from rummy.userinput.user_input import UserInput
 
 
 class TestSetupPlayers:

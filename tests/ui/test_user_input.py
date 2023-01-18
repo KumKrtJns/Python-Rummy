@@ -1,6 +1,6 @@
 # coding=utf-8
 
-from rummy.ui.user_input import UserInput
+from rummy.userinput.user_input import UserInput
 
 
 class TestUserInput:
