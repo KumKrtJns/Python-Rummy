@@ -1,11 +1,10 @@
 # coding=utf-8
 import os
 from string import Template
+from rummy.ansi_colours import Colour
 
-from ansi_colours import AnsiColours
 
-
-class TextTemplate(AnsiColours):
+class TextTemplate(Colour):
 
     @classmethod
     def render(cls, template, **kwargs):
@@ -14,5 +13,5 @@ class TextTemplate(AnsiColours):
         with open(template, 'r') as content_file:
             content = content_file.read()
             t = Template(content)
-            kwargs.update(AnsiColours.colours)
+            kwargs.update(Colour.colours)
             return t.substitute(**kwargs)

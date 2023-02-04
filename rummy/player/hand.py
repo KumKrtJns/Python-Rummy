@@ -1,10 +1,9 @@
 # -*- coding: utf-8 -*-
 
-from ansi_colours import AnsiColours as Colour
-
-from rummy.deck.rank import Rank
-from rummy.deck.sort import Sort
-from rummy.game.melds import Melds
+from rummy.ansi_colours import Colour
+from rummy.deck import Rank
+from rummy.deck import Sort
+from rummy.game import Melds
 
 
 class Hand(Rank):

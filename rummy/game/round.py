@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from rummy.deck.deck import Deck
+from rummy.deck import Deck
 from rummy.player.dealer import Dealer
 
 

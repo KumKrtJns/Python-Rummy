@@ -1,8 +1,7 @@
 from abc import abstractmethod
 
-from text_template import TextTemplate
-
-from rummy.constants.resource_path import TEMPLATE_PATH
+from rummy.text_template import TextTemplate
+from rummy.constants import TEMPLATE_PATH
 
 
 class PlayerView:

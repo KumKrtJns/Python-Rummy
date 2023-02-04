@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from rummy.player.hand import Hand
+
 
 
 class Dealer:
@@ -10,6 +10,7 @@ class Dealer:
         self.cardCount = card_count
 
     def deal(self, deck: list):
+        from .player import Hand
         hand = Hand()
         for _ in range(self.cardCount):
             hand.draw_card(deck.pop())

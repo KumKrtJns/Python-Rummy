@@ -3,8 +3,8 @@
 from copy import deepcopy
 from itertools import combinations
 
-from rummy.deck.rank import Rank
-from rummy.deck.sort import Sort
+from rummy.deck import Rank
+from rummy.deck import Sort
 
 
 class Melds:

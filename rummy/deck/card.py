@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
-from ansi_colours import AnsiColours as Colour
+from rummy.ansi_colours import Colour
 
 from rummy.constants.constants import UNICODE_SUPPORT
-from rummy.deck.suits import Suits
+from .suits import Suits
 
 
 class Card:

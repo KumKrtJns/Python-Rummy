@@ -1,6 +1,8 @@
 # coding=utf-8
-from action_collection import ActionCollection
-from view import View
+
+from rummy.ansi_colours import Colour
+from .action_collection import ActionCollection
+from .view import View
 
 
 class UserInput:
@@ -13,7 +15,7 @@ class UserInput:
             for action in action_collection.actions:
                 if isinstance(action.key, range):
                     output += "%s: %s\n" % (
-                    str(action), '%s-%s' % (Colour.green(str(action.key[0])), Colour.green(str(action.key[-1]))))
+                        str(action), '%s-%s' % (Colour.green(str(action.key[0])), Colour.green(str(action.key[-1]))))
                     keys.extend([str(key) for key in action.key])
                 else:
                     output += "%s: %s\n" % (str(action), Colour.green(action.key))
@@ -38,5 +40,6 @@ class UserInput:
                 "Enter " + Colour.green('d') + " to draw or " + Colour.green('p') + " to pickup discard: ")
         return player_choice
 
-if __name__ == __main__:
+
+if __name__ == "__main__":
     print(__name__)

@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from random import shuffle
-
-from rummy.deck.rank import Rank
+from .rank import Rank
 
 
 class Deck(Rank):
