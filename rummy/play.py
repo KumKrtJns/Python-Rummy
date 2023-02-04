@@ -8,12 +8,12 @@ import colorama
 
 from controller import AiController
 from controller import HumanController
-from rummy.game import Players,Round,Score
+from game import Players,Round,Score
 from player import Human
 from userinput import MenuActionDialog
 from userinput import UserInput
 from userinput import View
-from rummy.view.round_view import RoundView
+from view import RoundView
 
 
 class Play:
