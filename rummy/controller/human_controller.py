@@ -2,7 +2,7 @@ from rummy.player import Player
 from rummy.userinput import PlayerActionDialog
 from rummy.userinput import UserInput
 from rummy.userinput import View
-from rummy.view.human_view import HumanView
+from rummy.view import HumanView
 
 from .player_controller import PlayerController
 

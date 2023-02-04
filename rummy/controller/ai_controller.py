@@ -2,7 +2,7 @@ from random import choice
 
 from rummy.player import Player
 from rummy.userinput import View
-from rummy.view.ai_view import AiView
+from rummy.view import AiView
 
 from .player_controller import PlayerController
 

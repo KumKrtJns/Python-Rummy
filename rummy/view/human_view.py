@@ -1,6 +1,6 @@
 from rummy.text_template import TextTemplate
 from rummy.constants import TEMPLATE_PATH
-from rummy.view.player_view import PlayerView
+from .player_view import PlayerView
 
 
 class HumanView(PlayerView):
