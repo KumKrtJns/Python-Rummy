@@ -38,5 +38,5 @@ class UserInput:
                 "Enter " + Colour.green('d') + " to draw or " + Colour.green('p') + " to pickup discard: ")
         return player_choice
 
-if __name__ == __main__:
+if __name__ == "__main__":
     print(__name__)
