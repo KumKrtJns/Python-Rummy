@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from ansi_colours import AnsiColours as Colour
-
+from rummy.ansi_colours import Colour
 from rummy.view.round_view import RoundView
 
 

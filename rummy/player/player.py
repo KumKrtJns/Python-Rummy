@@ -1,9 +1,8 @@
 # -*- coding: utf-8 -*-
 
 from abc import ABCMeta
-
-from rummy.game.melds import Melds
-from rummy.player.hand import Hand
+from rummy.game import Melds
+from .hand import Hand
 
 
 class Player(metaclass=ABCMeta):

@@ -1,7 +1,6 @@
 from abc import abstractmethod, ABCMeta
-
-from rummy.player.player import Player
-from rummy.userinput.view import View
+from rummy.player import Player
+from rummy.userinput import View
 
 
 class PlayerController(metaclass=ABCMeta):

@@ -1,9 +1,10 @@
-from rummy.controller.player_controller import PlayerController
-from rummy.player.player import Player
-from rummy.userinput.player_action_dialog import PlayerActionDialog
-from rummy.userinput.user_input import UserInput
-from rummy.userinput.view import View
+from rummy.player import Player
+from rummy.userinput import PlayerActionDialog
+from rummy.userinput import UserInput
+from rummy.userinput import View
 from rummy.view.human_view import HumanView
+
+from .player_controller import PlayerController
 
 
 class HumanController(PlayerController):

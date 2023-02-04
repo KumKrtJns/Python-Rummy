@@ -1,6 +1,5 @@
 # coding=utf-8
 
-
 class AnsiColours:
     colours = {
         'black': '\033[0;30m',

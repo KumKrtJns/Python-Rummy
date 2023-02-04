@@ -1,9 +1,10 @@
 from random import choice
 
-from rummy.controller.player_controller import PlayerController
-from rummy.player.player import Player
-from rummy.userinput.view import View
+from rummy.player import Player
+from rummy.userinput import View
 from rummy.view.ai_view import AiView
+
+from .player_controller import PlayerController
 
 
 class AiController(PlayerController):

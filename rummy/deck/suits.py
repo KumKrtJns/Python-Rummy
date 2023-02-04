@@ -1,5 +1,5 @@
 # coding=utf-8
-from rummy.constants.constants import UNICODE_SUPPORT, ALPHA_SUITS, SUITS
+from rummy.constants import UNICODE_SUPPORT, ALPHA_SUITS, SUITS
 
 
 class Suits:

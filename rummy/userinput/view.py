@@ -1,8 +1,7 @@
 # coding=utf-8
 
-from text_template import TextTemplate
-
-from rummy.constants.resource_path import TEMPLATE_PATH
+from rummy.text_template import TextTemplate
+from rummy.constants import TEMPLATE_PATH
 
 
 # Todo: Refactor -- These look more like controllers the current controller is more like a service.

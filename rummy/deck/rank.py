@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-from rummy.deck.card import Card
-from rummy.deck.face_values import FaceValues
-from rummy.deck.suits import Suits
+from .card import Card
+from .face_values import FaceValues
+from .suits import Suits
 
 
 class Rank:

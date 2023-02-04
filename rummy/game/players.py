@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
-from player import AI, Human
-from userinput import MenuActionDialog, UserInput
 
+
+
+from rummy.userinput import MenuActionDialog
+from rummy.userinput import UserInput
 
 
 class Players:
@@ -13,6 +15,7 @@ class Players:
     def choose_players(self):
         self.number_of_players = int(UserInput.create_input(MenuActionDialog.human_players()))
         for _ in range(int(self.number_of_players)):
+            from rummy.player import Human
             self.players.append(Human(len(self.players) + 1))
 
     def choose_opponents(self):
@@ -21,6 +24,7 @@ class Players:
                 UserInput.create_input(MenuActionDialog.ai_players(self.number_of_players)))
             ai_only = self.is_ai_only()
             for _ in range(int(self.number_of_opponents)):
+                from rummy.player import AI
                 self.players.append(AI(len(self.players) + 1, ai_only))
 
     def is_ai_only(self):

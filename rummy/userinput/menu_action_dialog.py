@@ -1,6 +1,6 @@
-from rummy.userinput.action import Action
-from rummy.userinput.action_collection import ActionCollection
-from rummy.userinput.user_input import UserInput
+from .action import Action
+from .user_input import ActionCollection
+from .user_input import UserInput
 
 
 class MenuActionDialog:
