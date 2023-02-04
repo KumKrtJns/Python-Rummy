@@ -2,7 +2,7 @@
 
 from rummy.ansi_colours import Colour
 
-from rummy.constants.constants import UNICODE_SUPPORT
+from rummy.constants import UNICODE_SUPPORT
 from .suits import Suits
 
 

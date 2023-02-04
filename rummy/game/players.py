@@ -1,10 +1,7 @@
 # -*- coding: utf-8 -*-
 
-
-
 from rummy.userinput import MenuActionDialog
 from rummy.userinput import UserInput
-
 
 class Players:
     def __init__(self):
