@@ -44,3 +44,9 @@ class AnsiColours:
     @classmethod
     def light_grey(cls, text):
         return cls.colours['light_grey'] + text + cls.colours['colour_end']
+
+if __name__ == "__main__":
+    Colour = AnsiColours()
+    txtBlu = Colour.purple("colour colour")
+    print(txtBlu)
+

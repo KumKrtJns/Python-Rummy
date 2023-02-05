@@ -6,7 +6,6 @@ from rummy.constants import TEMPLATE_PATH
 
 # Todo: Refactor -- These look more like controllers the current controller is more like a service.
 
-
 class View:
 
     @staticmethod
@@ -21,4 +20,3 @@ class View:
     def prepare_template(template, **kwargs):
         complete_template = TEMPLATE_PATH + template
         return TextTemplate.render(complete_template, **kwargs)
-
