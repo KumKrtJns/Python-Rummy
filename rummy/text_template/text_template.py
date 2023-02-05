@@ -15,3 +15,8 @@ class TextTemplate(Colour):
             t = Template(content)
             kwargs.update(Colour.colours)
             return t.substitute(**kwargs)
+
+if __name__ == "__main__":
+    from rummy.constants import TEMPLATE_PATH
+    print(TextTemplate.render(TEMPLATE_PATH + '/knocked.txt'))
+    #${red}A Player has knocked, this is your last turn!!!${colour_end}

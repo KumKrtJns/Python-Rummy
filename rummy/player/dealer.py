@@ -7,6 +7,7 @@ class Dealer:
         self.cardCount = card_count
 
     def deal(self, deck: list):
+        #import hand class
         from .player import Hand
         hand = Hand()
         for _ in range(self.cardCount):
